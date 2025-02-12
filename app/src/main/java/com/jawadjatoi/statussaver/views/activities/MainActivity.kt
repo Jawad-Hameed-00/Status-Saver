@@ -2,7 +2,10 @@ package com.jawadjatoi.statussaver.views.activities
 
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.jawadjatoi.statussaver.R
 import com.jawadjatoi.statussaver.databinding.ActivityMainBinding
 import com.jawadjatoi.statussaver.utils.Constants
@@ -19,9 +22,12 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        installSplashScreen()
+        Thread.sleep(1000)
         setContentView(binding.root)
         SharedPrefUtils.init(activity)
         binding.apply {
+
 
             val fragmentWhatsAppStatus = FragmentStatus()
             val bundle = Bundle()

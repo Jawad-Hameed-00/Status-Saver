@@ -8,15 +8,25 @@
 
         <item name="fontFamily">@font/helvetice_regular</item>
         <item name="android:includeFontPadding">false</item>
+
+
     </style>
 
     <style name="Theme.StatusSaver" parent="Base.Theme.StatusSaver" />
 
 
 
-        <style name="TabText">
-            <item name="android:textSize">16sp</item>
-        </style>
+
+
+    <style name="Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.StatusSaver</item>
+    </style>
+    <style name="TabText">
+        <item name="android:textSize">16sp</item>
+    </style>
+
     <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
         <item name="android:color">#0A6B60</item> <!-- Set the active indicator color -->
     </style>
