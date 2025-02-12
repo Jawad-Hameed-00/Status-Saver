@@ -55,6 +55,8 @@ Status Saver is an Android application that allows users to easily view, downloa
 | Screenshot 1 | Screenshot 2 | Screenshot 3 |
 |-------------|-------------|-------------|
 | ![Screenshot 1](gallery/ss1.jpg) | ![Screenshot 2](gallery/ss2.jpg) | ![Screenshot 3](gallery/ss3.jpg) |
+| Screenshot 4 | Screenshot 5 | Screenshot 6 |
+|-------------|-------------|-------------|
 | ![Screenshot 4](gallery/ss4.jpg) | ![Screenshot 5](gallery/ss5.jpg) | ![Screenshot 6](gallery/ss6.jpg) |
 
 
